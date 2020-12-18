@@ -1,0 +1,196 @@
+CRITICAL - 2020-12-18 00:08:34 --> Undefined variable: Datos
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Views\categorias.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('categorias', Array, true)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(101): view('categorias')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->categoria()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-18 00:09:04 --> Undefined variable: Datos
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Views\categorias.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('categorias', Array, true)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(101): view('categorias')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->categoria()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-18 00:12:50 --> Undefined property: stdClass::$nombre
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Views\categorias.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('categorias', Array, true)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(112): view('categorias', Array)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->categoria()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-18 00:15:52 --> Undefined offset: 0
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Views\actualizaa.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('actualizaa', Array, true)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(83): view('actualizaa', Array)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->getNombre('1')
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-18 00:27:25 --> Unknown column 'Fecha' in 'field list'
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(128): App\Models\CrudModel->insertarc(Array)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crearc()
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-18 00:29:27 --> Unknown column 'Fecha' in 'field list'
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(128): App\Models\CrudModel->insertarc(Array)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crearc()
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-18 00:35:00 --> Unknown column 'Fecha' in 'field list'
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(128): App\Models\CrudModel->insertarc(Array)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crearc()
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-18 00:35:39 --> Unknown column 'Fecha' in 'field list'
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(128): App\Models\CrudModel->insertarc(Array)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crearc()
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-18 00:45:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(138): CodeIgniter\Model->__call('getCat', Array)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->getCategoria('1')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-18 00:47:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(138): CodeIgniter\Model->__call('getCat', Array)
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->getCategoria('1')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-18 00:47:41 --> Unknown column 'id_contacto' in 'where clause'
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(138): App\Models\CrudModel->getCategoria(Array)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->getCategoria('2')
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-18 00:53:04 --> Undefined variable: idCat
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->actualizarc()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-18 01:01:35 --> Undefined index: Categoria
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crear()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-18 01:14:29 --> Undefined index: Categoria
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crear()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-18 01:15:04 --> Undefined index: Categoria
+#0 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->crear()
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-18 12:17:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1548): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1591): CodeIgniter\Database\BaseConnection->listTables()
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(945): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(193): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\AgendaJ\crudCode\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2020-12-18 12:20:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(15): App\Models\CrudModel->obtieneNombres()
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->agenda()
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-18 12:20:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\AgendaJ\crudCode\app\Models\CrudModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\app\Controllers\Crud.php(104): App\Models\CrudModel->getCategorias()
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Crud->categoria()
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-18 12:33:49 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1548): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1591): CodeIgniter\Database\BaseConnection->listTables()
+#3 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(945): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#4 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(193): CodeIgniter\Database\MigrationRunner->ensureTable()
+#5 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#6 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#7 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#8 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#9 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#10 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#11 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\AgendaJ\crudCode\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\AgendaJ\crudCode\spark(57): CodeIgniter\CLI\Console->run()
+#14 {main}

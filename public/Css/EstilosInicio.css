@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFA07A;
+}
+
+.Contenedor{
+    width: 90%;
+    max-width: 550px;
+    background-color: orange;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.Contenedor img{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+}
+
+.Contenedor button{
+    width: 150px;
+}

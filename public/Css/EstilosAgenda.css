@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFA07A;
+}
+
+#Tabla tr th{
+    background: rebeccapurple;
+    text-align: center;
+    color: white;
+}
+
+#Tabla tr td{
+    background: whitesmoke;
+    text-align: center;
+}
+
+#Tabla tr:hover td{
+    background: #CD5C5C;
+    color: white;
+}
